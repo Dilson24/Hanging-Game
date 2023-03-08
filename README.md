@@ -23,13 +23,13 @@ This project was inspired by the popular game '*Hanging-Game*', using different 
 ## Authors
 - [@Dilson24](https://www.github.com/Dilson24) - Codificación y documentación.
 ## Screenshots
-###Home
+### Home
 ![View One](assets/image/view1.png "View One")
 ![View Two](assets/image/view2.PNG "View Two")
 ![View Three](assets/image/view3.PNG "View Three")
 ![View Four](assets/image/view4.png "View Four")
 
-###Start Game
+### Start Game
 
 ![View Five](assets/image/view5.png "View Five")
 ![View Six](assets/image/view6.png "View Six")
@@ -37,7 +37,7 @@ This project was inspired by the popular game '*Hanging-Game*', using different 
 ![View Eight](assets/image/view8.png "View Eight")
 ![View Nine](assets/image/view11.png "View Nine")
 
-###Responsive
+### Responsive
 
 ![View Ten](assets/image/view9.png "View Ten")
 ![View Eleven](assets/image/view10.png "View Eleven")
