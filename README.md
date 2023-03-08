@@ -51,7 +51,7 @@ This project was inspired by the popular game '*Hanging-Game*', using different 
 
 ## License
 **Free Software, Hell Yeah!**
-[MIT](https://choosealicense.com/licenses/mit/) © 2022-Dilson Alexander Cruz Nivia
+[MIT](https://choosealicense.com/licenses/mit/) © 2022 - Dilson Alexander Cruz Nivia
 
  [JavaScript]: <https://lenguajejs.com/>
  [HTML5]: <https://lenguajehtml.com/html/>
