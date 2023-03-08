@@ -8,7 +8,7 @@ This project was inspired by the popular game '*Hanging-Game*', using different 
 - Responsive.
 - Botones interactivos.
 - Alertas dinámicas.
-- El usuario puede agregar* nueva palabra* y *pista*.
+- El usuario puede agregar *nueva palabra* y *pista*.
 - Diferentes categorías.
 - El usuario puede reiniciar el juego cuantas veces quiera.
 
@@ -17,7 +17,7 @@ This project was inspired by the popular game '*Hanging-Game*', using different 
 - Responsive.
 - Interactive buttons.
 - Dynamic alerts.
-- User can add* new word* and *track*.
+- User can add *new word* and *track*.
 - Different categories.
 - The user can restart the game as many times as he wants.
 ## Authors
