@@ -462,8 +462,3 @@ var animar = function(){
 function redirec(){
     location.href = "index.html";
 };
-
-    
-    
-    
-    
