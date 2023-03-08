@@ -2,31 +2,29 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <title>Juego Ahorcado</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/image/hangman.ico" type="image/hangman-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Hanging-Game</title>
 </head>
 
 <body>
   <div class="GContainer" id="con">
     <h1>Juego Ahorcado</h1>
-    
-      <div id="ContainerB">
-      
-        <a href="ahorcado.html" type="button" value="Jugar">Jugar</a>
-        <button value="Agregar"onclick="agregar();">Agregar Palabra</button>
-      </div>
-      <div id="input_palabra">
-        <input type="text" id="texto" placeholder="Nueva palabra"onkeypress="return SoloLetras(event);" required>
-        <input type="text" id="textoPis" placeholder="Nueva pista"onkeypress="return SoloLetrasP(event);" required>
-        <input id="btnAgregarPalabra" type="button" onclick="agregarP();" value="Guardar Palabra">
-        <input id="btnAgregarPista" type="button" onclick="agregarPis();" value="Guardar Pista">
-      </div>
-    
-  
+    <img class="image-hangman"src="assets/image/Hangman.png" alt="image-hangman" />
+    <div id="ContainerB">
+      <a href="hanging-game.html" type="button" value="Jugar">Jugar</a>
+      <button value="Agregar" onclick="agregar();">Agregar Palabra</button>
+    </div>
+    <div id="input_palabra">
+      <input type="text" id="texto" placeholder="Nueva palabra" onkeypress="return SoloLetras(event);" required />
+      <input type="text" id="textoPis" placeholder="Nueva pista" onkeypress="return SoloLetrasP(event);" required />
+      <input id="btnAgregarPalabra" type="button" onclick="agregarP();" value="Guardar Palabra" />
+      <input id="btnAgregarPista" type="button" onclick="agregarPis();" value="Guardar Pista" />
+    </div>
   </div>
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="script.js"></script>

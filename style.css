@@ -1,10 +1,10 @@
 @font-face {
   font-family:font_one;
-  src: url(fonts/Kalam/Kalam-Bold.ttf);
+  src: url(assets/fonts/Kalam/Kalam-Bold.ttf);
 }
 @font-face {
   font-family:font_two;
-  src: url(fonts/Boogaloo/Boogaloo-Regular.tt);
+  src: url(assets/fonts/Boogaloo/Boogaloo-Regular.ttf);
 }
 ::placeholder { color: #0039a6; }
 html{
@@ -18,10 +18,19 @@ body {
     text-align: center;
     font-size: 18px;
   }
-  
+  /*.ContainerTitle{
+    position: relative;
+    top: -100px;
+    
+  }*/
+  .image-hangman{
+    height: 200px;
+    width: 200px;
+  }
   .GContainer{
     width: 100%;
     margin: 0 auto;
+    
   }
   .GContainer:after {
     content: "";
@@ -235,7 +244,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 15%;
+  margin-top: 8%;
  }
 
 .animate__heartBeat{
